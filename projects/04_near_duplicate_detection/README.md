@@ -20,7 +20,7 @@
 
 > ### Hashing a normal form found 4 of 30 near-duplicates. Sixteen of the ones it missed carry conflicting labels.
 
-[devign-leakage](https://github.com/hammas159/devign-leakage) found duplicates by hashing a
+[devign-leakage](https://github.com/hammasbuilds/devign-leakage) found duplicates by hashing a
 normalised form, and stated plainly that *"two functions differing by one statement are not
 detected at either level"*. This measures how many that is — and because Devign is
 labelled, how many of them disagree about whether the same code is vulnerable.

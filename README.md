@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/hammas159/nlp-lab/actions/workflows/ci.yml"><img src="https://github.com/hammas159/nlp-lab/actions/workflows/ci.yml/badge.svg" alt="ci"></a>
+  <a href="https://github.com/hammasbuilds/nlp-lab/actions/workflows/ci.yml"><img src="https://github.com/hammasbuilds/nlp-lab/actions/workflows/ci.yml/badge.svg" alt="ci"></a>
   <img src="https://img.shields.io/badge/python-3.11%2B-blue" alt="python">
   <img src="https://img.shields.io/badge/data-real%20public%20benchmarks-orange" alt="data">
   <img src="https://img.shields.io/badge/downloads%20needed-none-success" alt="no downloads">
@@ -169,7 +169,7 @@ system it is — BM25's 8-point deficit becomes 2, for 1/270th of the indexing c
 
 ### 04 · Near-duplicate detection
 
-[devign-leakage](https://github.com/hammas159/devign-leakage) found duplicates by hashing a
+[devign-leakage](https://github.com/hammasbuilds/devign-leakage) found duplicates by hashing a
 normalised form, and stated that functions differing by one statement would be invisible to
 it. This measures how many that is.
 
