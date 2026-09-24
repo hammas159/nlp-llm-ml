@@ -50,29 +50,29 @@ variable it could not fix as a column rather than a footnote.
 
 | # | Project | Question | Status |
 |---|---|---|---|
-| **01** | [Embedding fair comparison](projects/01_embedding_fair_comparison) | Is a neural embedding's advantage the *method*, or the 100 billion words it was trained on? | ✅ complete |
-| **02** | [Preprocessing ablation](projects/02_preprocessing_ablation) | Which parts of the standard NLP pipeline actually help - and do they compose? | ✅ complete |
-| **03** | [The reranker ceiling](projects/03_reranker_ceiling) | Does a reranker rescue a weak first stage, or only reorder it? | ✅ complete |
-| **04** | [Near-duplicate detection](projects/04_near_duplicate_detection) | How much does exact-match-on-a-normal-form miss? | ✅ complete |
-| **05** | [Zipf and Heaps](projects/05_zipf_and_heaps) | Five estimators, one exponent — how far apart do they land, and is it a power law at all? | ✅ complete |
-| **06** | [PPMI-SVD vs SGNS](projects/06_ppmi_svd_vs_sgns) | Is word2vec's advantage the objective, or the hyperparameters that shipped with it? | ✅ complete |
-| **07** | [The SMART weighting grid](projects/07_smart_weighting_grid) | "TF-IDF" names forty-five schemes. How far apart are they? | ✅ complete |
-| **08** | [gzip-kNN](projects/08_gzip_knn) | Is the compression result about compression, or about the scoring? | ✅ complete |
-| **09** | [Collocations](projects/09_collocations) | Five association measures, one set of counts. Do they agree on anything? | ✅ complete |
-| **10** | [Pseudo-relevance feedback](projects/10_relevance_feedback) | It improves the mean. What does it do to each query? | ✅ complete |
-| **11** | [Text clustering](projects/11_text_clustering) | Does silhouette find the number of clusters the labels say is there? | ✅ complete |
-| **12** | [Gazetteer NER](projects/12_gazetteer_ner) | What bounds a dictionary tagger — its coverage, or its own ambiguity? | ✅ complete |
-| **13** | [Language identification](projects/13_language_id) | It is reported on documents and used on queries. What happens at query length? | ✅ complete |
-| **14** | [String similarity](projects/14_string_similarity) | Seven fuzzy-matching measures. Does the ranking survive changing the noise? | ✅ complete |
-| **15** | [Sentence boundaries](projects/15_sentence_boundaries) | Four splitters a methods section would describe identically. How far apart are they? | ✅ complete |
-| **16** | [Stylometry](projects/16_stylometry) | Authorship attribution scores 0.965. How much of that is style, and how much is topic? | ✅ complete |
-| **17** | [Classical topic models](projects/17_topic_models) | Topic models are ranked by coherence. Does coherence agree with a task? | ✅ complete |
-| **18** | [Tokenisation](projects/18_tokenisation) | BPE vs WordPiece vs Unigram — how much is the algorithm worth, against the knob beside it? | ✅ complete |
-| **19** | [Sentiment lexicons](projects/19_sentiment_lexicons) | Which matters more — the lexicon, or the negation and intensifier rules around it? | ✅ complete |
-| **20** | [Word sense disambiguation](projects/20_word_sense) | Reported against random it looks solved. What happens against the most frequent sense? | ✅ complete |
-| **21** | [Reranking depth](projects/21_reranking_depth) | Project 03 fixed the reranker's window at 50. What does that number decide? | ✅ complete |
-| **22** | [Pooling](projects/22_pooling) | Mean vs CLS vs max, encoder held fixed. Does "best pooling" have an answer? | ✅ complete |
-| **23** | [Low-resource morphology](projects/23_urdu_morphology) | Project 18 said subwords buy nothing, for English. Does that survive Urdu? | ✅ complete |
+| [**01**](projects/01_embedding_fair_comparison) | [**Embedding fair comparison**](projects/01_embedding_fair_comparison) | Is a neural embedding's advantage the *method*, or the 100 billion words it was trained on? | ✅ complete |
+| [**02**](projects/02_preprocessing_ablation) | [**Preprocessing ablation**](projects/02_preprocessing_ablation) | Which parts of the standard NLP pipeline actually help - and do they compose? | ✅ complete |
+| [**03**](projects/03_reranker_ceiling) | [**The reranker ceiling**](projects/03_reranker_ceiling) | Does a reranker rescue a weak first stage, or only reorder it? | ✅ complete |
+| [**04**](projects/04_near_duplicate_detection) | [**Near-duplicate detection**](projects/04_near_duplicate_detection) | How much does exact-match-on-a-normal-form miss? | ✅ complete |
+| [**05**](projects/05_zipf_and_heaps) | [**Zipf and Heaps**](projects/05_zipf_and_heaps) | Five estimators, one exponent — how far apart do they land, and is it a power law at all? | ✅ complete |
+| [**06**](projects/06_ppmi_svd_vs_sgns) | [**PPMI-SVD vs SGNS**](projects/06_ppmi_svd_vs_sgns) | Is word2vec's advantage the objective, or the hyperparameters that shipped with it? | ✅ complete |
+| [**07**](projects/07_smart_weighting_grid) | [**The SMART weighting grid**](projects/07_smart_weighting_grid) | "TF-IDF" names forty-five schemes. How far apart are they? | ✅ complete |
+| [**08**](projects/08_gzip_knn) | [**gzip-kNN**](projects/08_gzip_knn) | Is the compression result about compression, or about the scoring? | ✅ complete |
+| [**09**](projects/09_collocations) | [**Collocations**](projects/09_collocations) | Five association measures, one set of counts. Do they agree on anything? | ✅ complete |
+| [**10**](projects/10_relevance_feedback) | [**Pseudo-relevance feedback**](projects/10_relevance_feedback) | It improves the mean. What does it do to each query? | ✅ complete |
+| [**11**](projects/11_text_clustering) | [**Text clustering**](projects/11_text_clustering) | Does silhouette find the number of clusters the labels say is there? | ✅ complete |
+| [**12**](projects/12_gazetteer_ner) | [**Gazetteer NER**](projects/12_gazetteer_ner) | What bounds a dictionary tagger — its coverage, or its own ambiguity? | ✅ complete |
+| [**13**](projects/13_language_id) | [**Language identification**](projects/13_language_id) | It is reported on documents and used on queries. What happens at query length? | ✅ complete |
+| [**14**](projects/14_string_similarity) | [**String similarity**](projects/14_string_similarity) | Seven fuzzy-matching measures. Does the ranking survive changing the noise? | ✅ complete |
+| [**15**](projects/15_sentence_boundaries) | [**Sentence boundaries**](projects/15_sentence_boundaries) | Four splitters a methods section would describe identically. How far apart are they? | ✅ complete |
+| [**16**](projects/16_stylometry) | [**Stylometry**](projects/16_stylometry) | Authorship attribution scores 0.965. How much of that is style, and how much is topic? | ✅ complete |
+| [**17**](projects/17_topic_models) | [**Classical topic models**](projects/17_topic_models) | Topic models are ranked by coherence. Does coherence agree with a task? | ✅ complete |
+| [**18**](projects/18_tokenisation) | [**Tokenisation**](projects/18_tokenisation) | BPE vs WordPiece vs Unigram — how much is the algorithm worth, against the knob beside it? | ✅ complete |
+| [**19**](projects/19_sentiment_lexicons) | [**Sentiment lexicons**](projects/19_sentiment_lexicons) | Which matters more — the lexicon, or the negation and intensifier rules around it? | ✅ complete |
+| [**20**](projects/20_word_sense) | [**Word sense disambiguation**](projects/20_word_sense) | Reported against random it looks solved. What happens against the most frequent sense? | ✅ complete |
+| [**21**](projects/21_reranking_depth) | [**Reranking depth**](projects/21_reranking_depth) | Project 03 fixed the reranker's window at 50. What does that number decide? | ✅ complete |
+| [**22**](projects/22_pooling) | [**Pooling**](projects/22_pooling) | Mean vs CLS vs max, encoder held fixed. Does "best pooling" have an answer? | ✅ complete |
+| [**23**](projects/23_urdu_morphology) | [**Low-resource morphology**](projects/23_urdu_morphology) | Project 18 said subwords buy nothing, for English. Does that survive Urdu? | ✅ complete |
 
 ### 01 · Embedding fair comparison
 
